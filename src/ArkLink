@@ -1,0 +1,31 @@
+#!/bin/bash
+
+ln -s title-1-active.png title-2-active.png
+ln -s title-1-active.png title-3-active.png
+ln -s title-1-active.png title-4-active.png
+ln -s title-1-active.png title-5-active.png
+
+ln -s title-1-active.png title-1-inactive.png
+ln -s title-1-active.png title-2-inactive.png
+ln -s title-1-active.png title-3-inactive.png
+ln -s title-1-active.png title-4-inactive.png
+ln -s title-1-active.png title-5-inactive.png
+
+ln -s top-left-active.png top-left-inactive.png
+ln -s left-active.png left-inactive.png
+ln -s top-right-active.png top-right-inactive.png
+ln -s right-active.png right-inactive.png
+
+ln -s bottom-active.png bottom-inactive.png
+ln -s bottom-left-active.png bottom-left-inactive.png
+ln -s bottom-right-active.png bottom-right-inactive.png
+
+ln -s shade-inactive.png shade-pressed.png
+ln -s stick-inactive.png stick-pressed.png
+ln -s stick-toggled-inactive.png stick-toggled-pressed.png
+
+ln -s menu-active.png menu-inactive.png
+
+
+cp themerc ../xfwm4/
+mv *.png ../xfwm4/
